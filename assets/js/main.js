@@ -291,3 +291,17 @@ $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
     next.children(':first-child').clone().appendTo($(this));
   }
 });
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

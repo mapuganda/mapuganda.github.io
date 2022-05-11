@@ -1,9 +1,4 @@
-/**
-* Template Name: BizLand - v3.7.0
-* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -296,3 +291,4 @@ $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
     next.children(':first-child').clone().appendTo($(this));
   }
 });
+

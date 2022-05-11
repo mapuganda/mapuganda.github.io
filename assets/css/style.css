@@ -1,9 +1,3 @@
-/**
-* Template Name: BizLand - v3.7.0
-* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -397,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  background: url("../img/hero.png") top left;
   background-size: cover;
   position: relative;
 }
@@ -776,7 +770,7 @@ section {
   padding: 15px 0;
 }
 .clients img:hover {
-  transform: scale(1.15);
+  transform: scale(2.15);
 }
 @media (max-width: 768px) {
   .clients img {
@@ -1521,4 +1515,8 @@ section {
 
 .carousel-controls{
     display: none;
+}
+
+.card{
+  border: none;
 }

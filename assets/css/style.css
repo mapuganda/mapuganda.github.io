@@ -1520,3 +1520,10 @@ section {
 .card{
   border: none;
 }
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
